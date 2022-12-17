@@ -11,13 +11,12 @@
 
 <body>
 	<header>
-		<h1>Tables</h1>
-		<h3>List of all transactions</h3>
 	</header>
 
 	<main>
 		<div class="myTable">
-			<table class="table ">
+			<table class="table table-hover">
+				<caption>List of all transactions</caption>
 				<thead>
 					<tr class="table-dark">
 						<th scope="col">#</th>
@@ -45,12 +44,14 @@
 						<td>John</td>
 						<td>2000</td>
 					</tr>
-					<tr>
+				</tbody>
+				<tfoot>
+					<tr class="table-light">
 						<th scope="row"></th>
 						<td colspan="2"></td>
 						<td>Total 4000</td>
 					</tr>
-				</tbody>
+				</tfoot>
 			</table>
 		</div>
 	</main>
